@@ -1,71 +1,78 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthieu Butet - Mon site personnel</title>
+    <title>Matthieu Butet - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- En-tête -->
     <header>
-        <h1>Matthieu Butet</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#photo">Ma Photo</a></li>
-                <li><a href="#passions">Mes Passions</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Matthieu Butet</h1>
+            <p>Développeur Web & Passionné par le MMA, la technologie et le design</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos de moi</a></li>
+                    <li><a href="#passions">Mes passions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
+    <!-- Section À propos -->
+    <section id="about" class="content-section">
+        <div class="container">
             <h2>À propos de moi</h2>
-            <p>Bonjour, je m'appelle Matthieu Butet. Je suis passionné par le développement web, le MMA et la Géopilitique.</p>
-        </section>
-
-        <section id="photo">
-            <h2>Ma Photo</h2>
-            <img src="C:\Users\Matthieu Butet\Desktop\my-profile\images\Photo CV.png" class="profile-photo">
-            <p> J'aime partager mes passions et mes projets avec le monde.</p>
-        </section>
-
-        <section id="passions">
-            <h2>Mes Passions</h2>
-            <div class="passion">
-                <img src="file:///C:/Users/Matthieu%20Butet/Downloads/web%20d%C3%A9veloppement.png" alt="Développement Web">
-                <h3>Développement Web</h3>
-                <p>J'adore créer des sites web et des applications. J'aime apprendre de nouvelles technologies et améliorer mes compétences.</p>
+            <div class="about-container">
+                <img src="images/ma-photo.jpg" alt="Photo de Matthieu Butet" class="profile-photo">
+                <p>
+                    Bonjour ! Je suis Matthieu Butet, un passionné de développement web avec un intérêt particulier pour le MMA, les nouvelles technologies et le design créatif. J'aime explorer et apprendre de nouvelles compétences pour rester à la pointe des dernières innovations.
+                </p>
             </div>
-            <div class="passion">
-                <img src="https://static.actu.fr/uploads/2022/12/mma-aef-rennes-bretagne-960x640.jpeg" alt="MMA">
-                <h3>Photographie</h3>
-                <p>Le MMA est une de mes plus grandes passions. J'aime assister à des combats et analyser la performance des combattants.</p>
-            </div>
-            <div class="passion">
-                <img src="https://www.orcam.com/media/2018_02_pexels-photo-235922.webp" alt="Sport">
-                <h3>Sport</h3>
-                <p>Je pratique divers sports, notamment la course à pied et le MMA. Le sport est essentiel pour mon bien-être.</p>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="projects">
-            <h2>Projets</h2>
-            <p>Voici quelques-uns de mes projets récents :</p>
-            <ul>
-                <li><a href="#">Site de e-commerce</a> - Un projet de site de vente en ligne.</li>
-                <li><a href="#">Blog personnel</a> - Un espace pour partager mes pensées et mes idées.</li>
-                <li><a href="#">Application mobile</a> - Une application pour gérer mes activités quotidiennes.</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Section Passions -->
+    <section id="passions" class="content-section">
+        <div class="container">
+            <h2>Mes passions</h2>
+            <div class="passions-grid">
+                <div class="passion">
+                    <img src="images/passion1.jpg" alt="Image représentant le MMA">
+                    <h3>MMA</h3>
+                    <p>Le MMA est plus qu'un sport pour moi. Il représente la discipline, la force mentale et la stratégie, qui m'inspirent au quotidien.</p>
+                </div>
+                <div class="passion">
+                    <img src="images/passion2.jpg" alt="Image représentant la technologie">
+                    <h3>Technologie</h3>
+                    <p>Passionné de nouvelles technologies, je suis toujours curieux des dernières innovations et de la manière dont elles peuvent améliorer nos vies.</p>
+                </div>
+                <div class="passion">
+                    <img src="images/passion3.jpg" alt="Image représentant le design">
+                    <h3>Design</h3>
+                    <p>Le design est l'art de résoudre des problèmes. J'aime créer des expériences visuelles harmonieuses et efficaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer id="contact">
-        <h2>Contact</h2>
-        <p>Vous pouvez me contacter à l'adresse suivante : <a href="mailto:matthieu.butet@ieseg.fr">matthieu.butet@ieseg.fr</a>.</p>
-        <p>&copy; 2024 Matthieu Butet - Tous droits réservés</p>
+    <!-- Section Contact -->
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>N'hésitez pas à me contacter pour discuter de collaborations ou simplement échanger sur nos passions communes !</p>
+            <a href="mailto:matthieu.butet@example.com" class="contact-button">Me Contacter</a>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Matthieu Butet. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
+
 
