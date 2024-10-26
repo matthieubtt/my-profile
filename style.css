@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #35424a;
+}
+
+/* Styles pour la photo de profil */
+.profile-photo {
+    max-width: 200px; /* Largeur maximale de l'image */
+    height: auto; /* Hauteur automatique pour garder les proportions */
+    border-radius: 50%; /* Pour faire une photo ronde */
+    margin: 10px 0; /* Espacement au-dessus et en-dessous de l'image */
+}
+
+/* Styles pour les passions */
+.passion {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #35424a;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.passion img {
+    max-width: 100%; /* Pour que l'image ne déborde pas */
+    height: auto; /* Hauteur automatique pour garder les proportions */
+}
+
+/* Styles pour le pied de page */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
